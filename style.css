@@ -1,7 +1,6 @@
 #container
 {
 	margin: 0 30px;
-	background: #fff;
 }
 
 #header
@@ -41,7 +40,7 @@
 	border-right: 1px solid #fff;
 }
 
-#navigation li a:hover { background: #383; }
+#navigation li a:hover { background:green; }
 
 #edito
 {
@@ -62,7 +61,7 @@
 
 #edito h2
 {
-	color: #000;
+	color:pink;
 	font-size: 160%;
 	margin: 0 0 .5em;
 }
@@ -83,6 +82,7 @@
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
+	color:cyan;
 }
 
 #footer
@@ -92,4 +92,7 @@
 	text-align: right;
 	padding: 20px;
 	height: 1%;
+}
+body{
+background:url(dab.jpg);
 }
